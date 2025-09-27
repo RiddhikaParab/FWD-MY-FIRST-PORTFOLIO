@@ -1,0 +1,280 @@
+/* Importing Google Fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@500;700&family=Poppins:wght@400;600&display=swap');
+
+/* General Page */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;  /* Whole website background is black */
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  line-height: 1.6;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+  min-height: 50vh;
+  background-color: black;  /* Ensures each section stays black */
+}
+
+/* Headings of sections */
+section h2 {
+  font-size: 36px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+/* ===================== NAVIGATION ===================== */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: black;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 15px 0;
+}
+
+nav ul li {
+  margin: 0 100px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  transform: scale(1.2);
+  color: yellow;
+}
+
+/* ===================== HOME ===================== */
+#home {
+  background-color: black;   /* Removed background image */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#home h1 {
+  font-size: 60px;
+  color: yellow;
+  font-family: 'Impact', fantasy;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+#home h2 {
+  font-size: 28px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===================== ABOUT ===================== */
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#about h2 {
+  text-shadow: 2px 2px 6px rgba(255,255,255,0.5);
+}
+
+#about h3 {
+	color: yellow;
+	font-size: 24px;
+	font-family: 'Century Gothic', sans-serif;
+}
+
+#about p {
+  max-width: 700px;
+  font-size: 18px;
+  color: yellow;
+  text-align: center;
+  font-family: 'Georgia', serif;
+}
+
+#about .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+
+#about .card {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+#about .card:hover {
+  transform: scale(1.05);
+}
+
+#about .card h4 {
+  font-size: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      margin: 10px 0;
+}
+
+/* ===================== EDUCATION ===================== */
+#education {
+  background-color: black;
+}
+
+#education .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+#education .card {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+#education .card:hover {
+  transform: scale(1.05);
+}
+
+#education .card h3 {
+  font-size: 24px;
+  color: yellow;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+/* ===================== CERTIFICATIONS ===================== */
+#certifications {
+  background-color: black;
+}
+
+#certifications .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+#certifications .card {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+#certifications .card:hover {
+  transform: scale(1.05);
+}
+
+#certifications .card h3 {
+  font-size: 24px;
+  color: yellow;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+/* ===================== PROJECTS ===================== */
+#projects {
+  background-color: black;
+}
+
+#projects .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+#projects .project {
+  background: #333;
+  padding: 15px;
+  border-radius: 8px;
+  width: 500px;
+  height:400px;
+  transition: transform 0.3s ease;
+}
+
+#projects .project:hover {
+  transform: scale(1.05);
+}
+
+#projects .project a {
+  font-size: 20px;
+  color: yellow;
+  font-family: 'Century Gothic', sans-serif;
+  transition: color 0.3s ease;
+}
+
+#projects .project a:hover {
+  color: #ffcc00;
+}
+
+#projects .project img {
+  width: 100%;
+  border-radius: 8px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* ===================== CONTACT ===================== */
+#contact {
+  background-color: black;
+}
+
+#contact .contact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .contact-item {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+#contact .contact-item:hover {
+  transform: scale(1.05);
+}
+
+#contact .contact-item img {
+  width: 60px;
+  height: 60px;
+}
+
+#contact .contact-item a {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: 'Century Gothic', sans-serif;
+  color: yellow;
+  transition: color 0.3s ease;
+}
+
+#contact .contact-item a:hover {
+  color: #ffcc00;
+}
