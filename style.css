@@ -229,7 +229,7 @@ nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 50px;
+  gap: 20px;
 }
 
 #projects .project {
@@ -317,3 +317,4 @@ nav ul li a:hover {
 #contact .contact-item a:hover {
   color: orange;
 }
+
