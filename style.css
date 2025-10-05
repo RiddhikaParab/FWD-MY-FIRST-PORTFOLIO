@@ -237,7 +237,7 @@ nav ul li a:hover {
   padding: 15px;
   border-radius: 10px;
   width: 500px;
-  height:400px;
+  height:300px;
   transition: transform 0.3s ease;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -317,6 +317,7 @@ nav ul li a:hover {
 #contact .contact-item a:hover {
   color: orange;
 }
+
 
 
 
