@@ -225,14 +225,9 @@ nav ul li a:hover {
   background-color: black;
 }
 
-#projects .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
 #projects .projects {
-  /**display: flex;
-  flex-wrap: wrap;**/
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
@@ -322,6 +317,7 @@ nav ul li a:hover {
 #contact .contact-item a:hover {
   color: orange;
 }
+
 
 
 
