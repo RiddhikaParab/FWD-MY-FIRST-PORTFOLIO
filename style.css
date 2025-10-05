@@ -229,14 +229,14 @@ nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
 }
 
 #projects .project {
   background: #333;
-  padding: 10px;
+  padding: 15px;
   border-radius: 10px;
-  width: 300px;
+  width: 500px;
   height:400px;
   transition: transform 0.3s ease;
   border-radius: 10px;
@@ -317,6 +317,7 @@ nav ul li a:hover {
 #contact .contact-item a:hover {
   color: orange;
 }
+
 
 
 
