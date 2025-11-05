@@ -154,7 +154,7 @@ nav ul li a:hover {
 
 #experience .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   justify-content: center;
 }
@@ -358,6 +358,7 @@ nav ul li a:hover {
 #contact .contact-item a:hover {
   color: orange;
 }
+
 
 
 
