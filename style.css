@@ -169,20 +169,20 @@ nav ul li a:hover {
 #experience .card:hover {
   transform: scale(1.05);
 }
-#education .card h3 {
+#experience .card h3 {
   font-size: 24px;
   margin-bottom: 5px;
   color: yellow;
   font-family: 'Century Gothic', sans-serif;
 }
 
-#certification .card h4 {
+#experience .card h4 {
       font-size: 18px;
       color: #666;
       margin-bottom: 10px;
     }
 	
-#certification .card h4 ul, li {
+#experience .card h4 ul, li {
       text-align: left; 
       list-style-position: outside; 
       margin-left: 0px;
@@ -358,6 +358,7 @@ nav ul li a:hover {
 #contact .contact-item a:hover {
   color: orange;
 }
+
 
 
 
