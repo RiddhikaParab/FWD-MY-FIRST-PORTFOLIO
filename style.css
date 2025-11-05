@@ -147,6 +147,29 @@ nav ul li a:hover {
       margin: 10px 0;
 }
 
+/* ===================== CERTIFICATIONS ===================== */
+#experience {
+  background-color: black;
+}
+
+#experience .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+#experience .card {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+#experience .card:hover {
+  transform: scale(1.05);
+}
+
 /* ===================== EDUCATION ===================== */
 #education {
   background-color: black;
@@ -317,6 +340,7 @@ nav ul li a:hover {
 #contact .contact-item a:hover {
   color: orange;
 }
+
 
 
 
